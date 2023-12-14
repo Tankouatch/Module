@@ -72,7 +72,7 @@ PLEASE REVIEW THIS POWERPOINT: https://docs.google.com/presentation/d/1G4FbNJeiK
 
 
 # a1-devops
-- devlarative pipeline Vs scripted pepeline
+- declarative pipeline Vs scripted pipeline
 - all jenkins environment variables
 - node pipeline example
 - Fonctions, move all stages and replace with functions
