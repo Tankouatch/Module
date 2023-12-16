@@ -65,21 +65,21 @@ pipeline {
                             break
                         case 'delete_user':
                             sh """
-                            sudo userdel ${params.USERNAME}"
+                            sudo userdel ${params.USERNAME}
                             echo "Deleting user '${params.USERNAME}'"
                             echo "User '${params.USERNAME}' deleted successfully."
                             """
                             break
                         case 'lock_user':
                             sh """
-                            sudo passwd -l ${params.USERNAME}"
+                            sudo passwd -l ${params.USERNAME}
                             echo "Locking user '${params.USERNAME}'"
                             echo "User '${params.USERNAME}' locked successfully."
                             """
                             break
                         case 'unlock_user':
                             sh """
-                            sudo passwd -u ${params.USERNAME}"
+                            sudo passwd -u ${params.USERNAME}
                             echo "Unlocking user '${params.USERNAME}'"
                             echo "User '${params.USERNAME}' unlocked successfully."
                             """
