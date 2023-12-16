@@ -26,8 +26,7 @@
     - LABEL
     - ARG
 
-
-## Git and Gith
+## Git and Github
 - Added your SSH key to your GitHub account
 - Setup your local git with your preferred and email to identify commits
 - Create a private repository in the GitHub organization with your preferred name
@@ -68,11 +67,8 @@
     - prod branch
     - qa branch
 
-PLEASE REVIEW THIS POWERPOINT: https://docs.google.com/presentation/d/1G4FbNJeiKLdid0D6tBUsNElqG98FzTbe/edit?usp=sharing&ouid=109697321687504306233&rtpof=true&sd=true
-
-
 # a1-devops
-- devlarative pipeline Vs scripted pepeline
+- declarative pipeline Vs scripted pipeline
 - all jenkins environment variables
 - node pipeline example
 - Fonctions, move all stages and replace with functions
